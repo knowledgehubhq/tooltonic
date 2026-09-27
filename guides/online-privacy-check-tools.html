@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Online Tools for Checking Your Privacy | ToolTonic</title>
+<meta name="description" content="Check your online privacy for free: breach lookups, tracker-blocking tests, and fingerprinting demos that show exactly what websites see about you.">
+<link rel="canonical" href="https://tooltonic.onrender.com/guides/online-privacy-check-tools.html">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="ToolTonic">
+<meta property="og:title" content="Online Tools for Checking Your Privacy | ToolTonic">
+<meta property="og:description" content="Check your online privacy for free: breach lookups, tracker-blocking tests, and fingerprinting demos that show exactly what websites see about you.">
+<meta property="og:url" content="https://tooltonic.onrender.com/guides/online-privacy-check-tools.html">
+<meta name="twitter:card" content="summary">
+<link rel="stylesheet" href="/assets/css/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%23e11d48'/><text x='50' y='68' font-size='52' text-anchor='middle' fill='white' font-family='sans-serif' font-weight='bold'>T</text></svg>">
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="/"><span class="brand-mark">T</span>ToolTonic</a>
+    <button class="nav-toggle" aria-label="Toggle navigation" onclick="document.getElementById('mainnav').classList.toggle('open')">☰ Menu</button>
+    <nav class="main-nav" id="mainnav" aria-label="Main navigation"><ul><li><a href="/">Home</a></li><li><a href="/guides/" class="active">Guides</a></li><li><a href="/about.html">About</a></li><li><a href="/contact.html">Contact</a></li></ul></nav>
+  </div>
+</header>
+<div class="container"><div class="breadcrumb"><a href="/">Home</a> &rsaquo; <a href="/guides/">Guides</a> &rsaquo; Online Tools for Checking Your Privacy</div>
+<div class="article-wrap"><article class="guide">
+<h1>Online Tools for Checking Your Privacy</h1>
+<div class="byline">By the ToolTonic editorial team &middot; Published September 27, 2026</div>
+<p>Privacy advice is usually vague — "be careful online" helps nobody. These free tools are the opposite: they show you concrete facts about your own exposure, from whether your email appeared in a breach to how uniquely identifiable your browser is. Run through them once and you will understand your privacy posture better than any list of tips could teach.</p>
+<h2>Why checking matters: breaches are routine now</h2>
+<p>Data breaches are no longer rare events; they are background noise. Every year brings fresh headlines about millions of customer records — names, emails, passwords, sometimes far worse — spilling out of companies people trusted. Data leaks make headlines regularly — see this <a href="https://topicsquest.com/technology/cybersecurity/netflix-has-responded-to-a-massive-data-leak/">related guide</a> on a major recent leak for context. The uncomfortable truth is that your information has probably been exposed at least once through no fault of your own, which is exactly why checking — rather than assuming — is the smart move.</p>
+<h2>Have I Been Pwned — check your email against known breaches</h2>
+<p>Have I Been Pwned, run by security researcher Troy Hunt, is the definitive breach lookup. Enter your email address and it tells you which publicly known data breaches included it, what types of data were exposed (passwords? phone numbers?), and when. It is free, it does not store your searches against you, and it is widely trusted by security professionals.</p>
+<p>If your address shows up — and for older addresses it very often does — the fix is straightforward: change the password on every account that shared the breached password, starting with your email account itself, and turn on two-factor authentication wherever it is offered. You can also sign up for notifications so you are alerted if your address appears in a future breach, rather than reading about it months later.</p>
+<p>One caution: the site also lets you check whether a specific password has appeared in breaches. That is genuinely useful for screening a new password — but never enter a password you currently use anywhere. Checking a candidate before adopting it is fine; testing live credentials is not.</p>
+<h2>Cover Your Tracks — test your tracker blocking</h2>
+<p>The Electronic Frontier Foundation's Cover Your Tracks (coveryourtracks.eff.org) answers a different question: how well does your current browser setup resist tracking? It runs a quick test and reports whether trackers can follow you, whether your ad blocker is working, and how unique your browser fingerprint is.</p>
+<p>This is the fastest way to find out if that privacy extension you installed is actually doing anything. Run the test with your normal setup, then try it in a hardened browser or with stricter blocking enabled, and compare. Many people discover their blocker was misconfigured or that their browser leaks far more than they assumed.</p>
+<h2>AmIUnique and BrowserLeaks — see what sites see</h2>
+<p>AmIUnique demonstrates browser fingerprinting: the technique of identifying you from the combination of your browser version, screen size, fonts, timezone, and dozens of other small signals. After the test it tells you how many other visitors shared your exact fingerprint — often depressingly few, meaning you are effectively unique and trackable without any cookies at all.</p>
+<p>BrowserLeaks goes deeper for the curious, showing in detail what your browser reveals: IP address, WebRTC leaks that can expose your real IP behind a VPN, canvas fingerprinting, and more. You do not need to understand every result; the point is seeing the sheer volume of data handed over silently on every page load. If you use a VPN, the WebRTC test alone is worth running to confirm it is not leaking.</p>
+<h2>Google and Apple account checkups</h2>
+<p>Two built-in tools deserve a mention. Google's Security Checkup (in your Google account settings) reviews third-party apps with access to your account, signed-in devices, and recent security events — revoke anything you do not recognize. Apple's equivalent lives under Settings on iPhone: review which apps have location, microphone, camera, and contacts access, and trim aggressively. Most people find apps holding permissions they granted years ago and forgot.</p>
+<h2>What to do with the results</h2>
+<ol>
+<li><strong>Breached email:</strong> unique passwords everywhere (consider a password manager to make that feasible), two-factor authentication on important accounts.</li>
+<li><strong>Weak tracker protection:</strong> a reputable content blocker and a privacy-respecting browser close most of the gap for free.</li>
+<li><strong>Highly unique fingerprint:</strong> this is the hardest to fix completely, but standardizing your setup — a common browser with default window size and mainstream extensions — makes you blend in better than a heavily customized one.</li>
+<li><strong>VPN leaks:</strong> enable the VPN's leak protection or kill switch, then re-test until the leaks stop.</li>
+<li><strong>Stale app permissions:</strong> revoke anything you do not actively use. This takes ten minutes and is pure win.</li>
+</ol>
+<h2>A note on trust</h2>
+<p>Privacy tools ask for sensitive input — your email, your browsing configuration — so only use established ones with public reputations: Have I Been Pwned, the EFF's tools, and your platform's built-in checkups. A random "free privacy scan" site that demands your email before showing results is collecting leads, not protecting you. The tools above show you their findings without requiring an account, which is exactly how it should be.</p>
+<p>Checking your privacy once a year takes less than half an hour and turns an abstract worry into a short to-do list. That is a trade worth making.</p>
+</article>
+<aside class="sidebar"><div class="side-box"><h3>Related guides</h3><ul><li><a href="/guides/compress-images-quality.html">How to Compress Images Without Losing Quality</a></li><li><a href="/guides/convert-file-formats-safely.html">Converting File Formats Online, Safely</a></li><li><a href="/guides/free-online-pdf-tools.html">Free Online PDF Tools Worth Knowing</a></li></ul></div>
+<div class="side-box"><h3>About this site</h3><p style="font-size:.93rem;margin:0;">Free online tools, explained simply. <a href="/about.html">Learn more</a>.</p></div></aside>
+</div></div><footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <h4>ToolTonic</h4>
+      <p style="font-size:.93rem;max-width:340px;">Free online tools, explained simply. Free guides, no jargon, no signup required.</p>
+    </div>
+    <div>
+      <h4>Guides</h4>
+      <ul>
+        <li><a href="/guides/">All guides</a></li>
+        <li><a href="/guides/compress-images-quality.html">Compress images</a></li>
+        <li><a href="/guides/free-online-pdf-tools.html">Free PDF tools</a></li>
+        <li><a href="/guides/make-qr-code.html">Make a QR code</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Site</h4>
+      <ul>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+        <li><a href="/privacy.html">Privacy Policy</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">&copy; 2026 ToolTonic. Published by the team behind Topics Quest. All guides are original and free to read.</div>
+</footer>
+</body>
+</html>
